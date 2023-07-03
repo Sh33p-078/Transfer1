@@ -1,0 +1,65 @@
+.sideBar {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: rgb(30, 30, 30);
+    min-height: auto;
+    max-width: 25vw;
+    align-items: center;
+    color: white;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.sideBar h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.sideBar h2 {
+    margin-right: auto;
+    margin-left: 4vh;
+    font-size: 25px;
+}
+
+.sideBar h3 {
+    font-size: 20px;
+}
+
+.sideBar ul {
+    font-size: 15px;
+}
+
+
+.playlist {
+    background-color: rgb(50, 50, 50);
+    padding: 1.5vh;
+    width: 300px;
+    min-height: 75px;
+    border-radius: 5px;
+    color: rgb(230, 230, 230);
+    overflow-y: auto;
+    margin: 1vh;
+    overflow: hidden;
+}
+
+.playlist li {
+    padding-top: 5px;
+}
+
+.music{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 75vw;
+}
+
+.musicBox{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    margin: 20px;
+    padding: 10px;
+}
